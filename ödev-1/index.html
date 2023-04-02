@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6055288dcc.js"></script>
+</head>
+<style>
+
+    body{
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url('img/1.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .yazi {
+        text-decoration: none;
+        color: #ff7200;
+        cursor: pointer;
+    }
+
+    ::placeholder {
+        color: white !important;
+    }
+
+    .nav-link:hover, .yazi:hover {
+        color: #ff7200 !important;
+    }
+
+    .btn:hover {
+        background: white !important;
+    }
+
+    @media only screen and (max-width :1500px) {
+        .arama {
+            display: none !important;
+        }
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent mx-5">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-1 fw-bolder" style="color: #ff7200;" href="#">PraRoz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse a justify-content-center container" id="navbarSupportedContent ">
+                <ul class="navbar-nav  mb-2   mb-lg-0">
+                    <li class="nav-item mx-5">
+                        <a class="nav-link text-white fs-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4   text-white mx-5" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  text-white fs-4 mx-5" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link text-white fs-4 mx-5" href="#">Design</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-4 mx-5" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-5 arama" role="search">
+                    <input class="form-control-lg me-2 rounded-2" type="search" placeholder="Type to Search"
+                        aria-label="Search">
+                    <button class="btn btn-lg px-4 text-white" style="background-color: #ff7200;"
+                        type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="position-relative">
+        <div class="row">
+            <div class="col-lg-6">
+                <!--  -->
+                <div class="ms-5 p-3">
+                    <h1 class="display-2 text-white fw-bold">Web Design &</h1>
+                    <h1 class="display-2 fw-bold" style="color: #ff7200 !important;">Development</h1>
+                    <h1 class="display-2 text-white fw-bold">Course</h1>
+                    <p class="text-white lh-lg text
+                fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo mollitia aut commodi
+                        <br>
+                        doloremque, provident, repellendus tempore suscipit expedita quod aperiam officia
+                        maiores
+                        ratione <br>numquam velit itaque autem molestias tenetur saepe.
+                    </p>
+                    <button class="btn btn-lg px-5" style="background-color: #ff7200;">JOIN US</button>
+                </div>
+            </div>
+
+            <div class="col-lg-2"></div>
+
+            <div class="col-lg-3 bg-black p-5 m-5 rounded-4">
+                <button class="btn btn-lg  w-100  my-3 fw-bolder fs-2"
+                            style="background-color: white; color: #ff7200;">Login Here</button>
+                        <input type="text" class="form-control bg-transparent border border-top-0 border-start-0 border-end-0 mb-4 ms-0 text-white m-3 fs-3" style="border-color: #ff7200 !important;" placeholder="Enter Email Here">
+
+                        <input type="password" class="form-control bg-transparent border border-top-0 border-start-0 border-end-0 mb-4 ms-0 text-white m-3 fs-3" style="border-color: #ff7200 !important;" placeholder="Enter Password Here">
+
+
+                        <button class="btn btn-lg  w-100 fw-bolder fs-2 my-3"
+                            style="background-color: #ff7200;">Login</button>
+
+                        <p class="text-white fs-3 text-center">Don't have an account?</p>
+                        <p class="text-white fs-3 text-center "><span>
+                            <a class="yazi">Sign up</a>
+                        </span> here.</p>
+
+                        <p class="text-white fs-5 text-center ">Login with.</p>
+
+                        <div class="container mt-4 text-center">
+                            <div class="d-flex justify-content-between text-white">
+                                <i class="fa-brands fa-facebook fa-2x nav-link"></i>
+                                <i class="fa-brands fa-instagram fa-2x nav-link"></i>
+                                <i class="fa-brands fa-twitter fa-2x nav-link"></i>
+                                <i class="fa-brands fa-google fa-2x nav-link"></i>
+                                <i class="fa-brands fa-skype fa-2x nav-link"></i>
+                            </div>
+                        </div>
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
+
+
+<!--
+
+<div class="h4 pb-2 mb-4 text-white m-3" style="border-bottom:1px solid #ff7200">
+                            Enter email here
+                        </div>
+
+                        <div class="h4 pb-2 mb-4 text-white  m-3" style="border-bottom:1px solid #ff7200">
+                            Enter Password here
+                        </div>
+
+   
+-->
