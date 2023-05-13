@@ -1,0 +1,14 @@
+#hesap-makinesi {
+    width: 50%;
+    height: 50%;
+    background-color: #EBDEF0;
+    margin: auto;
+}
+
+#hesap-makinesi button {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #AF7AC5!important;
+    padding: 16px;
+    color: white;
+}
