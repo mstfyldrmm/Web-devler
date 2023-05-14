@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Ali",
+    "surname": "Yılmaz",
+    "age": 25,
+    "mail": "ali.yilmaz@example.com"
+  },
+  {
+    "name": "Ayşe",
+    "surname": "Kara",
+    "age": 30,
+    "mail": "ayse.kara@example.com"
+  },
+  {
+    "name": "Mehmet",
+    "surname": "Çetin",
+    "age": 28,
+    "mail": "mehmet.cetin@example.com"
+  },
+  {
+    "name": "Fatma",
+    "surname": "Aktaş",
+    "age": 23,
+    "mail": "fatma.aktas@example.com"
+  },
+  {
+    "name": "Can",
+    "surname": "Gürkan",
+    "age": 26,
+    "mail": "can.gurkan@example.com"
+  },
+  {
+    "name": "Zeynep",
+    "surname": "Karaaslan",
+    "age": 29,
+    "mail": "zeynep.karaaslan@example.com"
+  },
+  {
+    "name": "Burak",
+    "surname": "Göktürk",
+    "age": 24,
+    "mail": "burak.gokturk@example.com"
+  },
+  {
+    "name": "Melis",
+    "surname": "Aydın",
+    "age": 27,
+    "mail": "melis.aydin@example.com"
+  },
+  {
+    "name": "Emre",
+    "surname": "Kılıç",
+    "age": 31,
+    "mail": "emre.kilic@example.com"
+  },
+  {
+    "name": "Ece",
+    "surname": "Yıldırım",
+    "age": 22,
+    "mail": "ece.yildirim@example.com"
+  },
+  {
+    "name": "Kaan",
+    "surname": "Yalçın",
+    "age": 28,
+    "mail": "kaan.yalcin@example.com"
+  },
+  {
+    "name": "Selin",
+    "surname": "Bulut",
+    "age": 29,
+    "mail": "selin.bulut@example.com"
+  },
+  {
+    "name": "Tolga",
+    "surname": "Akyüz",
+    "age": 27,
+    "mail": "tolga.akyuz@example.com"
+  },
+  {
+    "name": "Gamze",
+    "surname": "Karaaslan",
+    "age": 26,
+    "mail": "gamze.karaaslan@example.com"
+  },
+  {
+    "name": "Kerem",
+    "surname": "Avcı",
+    "age": 24,
+    "mail": "kerem.avci@example.com"
+  },
+  {
+    "name": "Beyza",
+    "surname": "Yılmaz",
+    "age": 25,
+    "mail": "beyza.yilmaz@example.com"
+  },
+  {
+    "name": "Gökhan",
+    "surname": "Kara",
+    "age": 29,
+    "mail": "gokhan.kara@example.com"
+  }
+]
